@@ -2,6 +2,9 @@
 Duomens tipo nustatymas
 TYPEOF (duomens tipo nustatymo operatorius)
 */
+function empty() {
+
+}
 
 console.log(typeof 5);
 console.log(typeof 'labas');
@@ -27,4 +30,27 @@ if (aType === 'string') {
     console.log('As dirbu su STRING');
 } else {
     console.log('As dirbu ne su STRING');
+}
+console.clear();
+
+const x = 'lfsg';
+const y = 7;
+
+if (typeof x !== 'number') {
+    console.log('ERROR: x');
+} else if (typeof y !== 'number') {
+    console.log('ERROR: y');
+} else {
+    console.log('VISKAS OK');
+}
+
+const h = '';
+const k = 7;
+
+console.log(typeof (h && k));
+
+if (typeof (h && k) !== 'number') {
+    console.log('ERROR');
+} else {
+    console.log('OK');
 }

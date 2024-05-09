@@ -5,6 +5,12 @@ FUNCTION - funkcija, perpanaudojama logika
 
 Input => Function() => Output
 */
+function doSomething(params) {
+    // 1) input (parametru) validavimas
+    // 2) vykdome logika
+    // 3) gauto rezultato validavimas
+    // 4) graziname rezultata
+}
 
 function funkcijosPavadinimas() {
 
@@ -45,7 +51,7 @@ Output:
 35
 */
 
-function multiply(firstNumber, secondNumber){
+function multiply(firstNumber, secondNumber) {
     return firstNumber * secondNumber;
 }
 
@@ -64,7 +70,7 @@ console.log(iLike('Jonas', 99, 'cepelinus'));
 function price(value) {
     const PVM = 21;
     const priceIncrease = 1 + PVM / 100;
-const priceForSale = value * priceIncrease;
+    const priceForSale = value * priceIncrease;
     return priceForSale;
 }
 

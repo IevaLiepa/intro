@@ -4,7 +4,33 @@ Boolean - logines reiksmes
 -true
 -false
 
-Boolean logikos 
+Boolean logikos operatoriai:
+- && (and)
+- || (or)
+- ! (not)
+
+Kaip interpretuojami kiti duomenu tipai ir ju reiksmes, jei jos yra naudojamos lyg boolean'ai?
+String:
+- jei tuscias-false
+- jei ne tuscias-true
+
+Number:
+- jei nulis-false
+- jei ne nulis-true
+- jei NaN - false
+- jei infinity - true
+- jei -infinity - true
+
+Array: 
+- jei tuscias - true
+- jei ne tuscias - true
+
+Object:
+- jei tuscias - true
+- jei ne tuscias - true
+
+Undefined - false
+null - false
 */
 
 const username = 'Jonas';
@@ -36,8 +62,27 @@ console.log(true || false);
 
 console.log(true && true || true || true);
 
+console.clear();
+
+// 1
+
+if (2) {
+    console.log(true);
+} else {
+    console.log(false);
+}
+
+console.log('-----');
+
+//2
 
 
+const bbb = 4 > 2
+if (bbb) {
+    console.log(true);
+} else {
+    console.log(false);
+}
 
 
 
