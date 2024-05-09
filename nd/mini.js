@@ -48,3 +48,9 @@ function numberCount(start, finish, step) {
     return 'Skaiciu intervale tarp ' + start + ' ir ' + finish + ', besidalijanciu be liekanos is ' + step + ' yra ' + answer + ' vienetai.';
 }
 console.log(numberCount(0, 11, 3));
+console.clear();
+//1
+function tusciaFunkcija() {
+    return false;
+}
+console.log(tusciaFunkcija());
