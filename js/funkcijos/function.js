@@ -75,4 +75,14 @@ function price(value) {
 }
 
 console.log(price(100));
-console.log(price(150));
+console.log(price(150))
+
+function price(value) {
+    const PVM = 21;
+    const priceIncrease = 1 + PVM / 100;
+    const priceForSale = value * priceIncrease;
+    return priceForSale;
+}
+
+console.log(price(100));
+console.log(price(150))

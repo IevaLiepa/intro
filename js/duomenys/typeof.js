@@ -54,3 +54,6 @@ if (typeof (h && k) !== 'number') {
 } else {
     console.log('OK');
 }
+console.clear();
+
+
