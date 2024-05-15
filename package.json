@@ -4,7 +4,9 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "polish": "node --watch ./js/duomenys/polish.js",
+        "matrica": "node --watch ./nd/matrica.js",
+        "clock": "node --watch ./nd/clock.js",
+        "polish": "node --watch ./js/codewars/polish.js",
         "praktika": "node --watch ./nd/praktika.js",
         "numberSize": "node --watch ./nd/numberSize.js",
         "typeof": "node --watch ./js/duomenys/typeof.js",
