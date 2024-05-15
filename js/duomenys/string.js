@@ -27,8 +27,18 @@ console.log(kabutes12);
 
 const personName = 'Chuck';
 const personSurname = 'Norris';
-const fullname = personName + ' ' + personSurname ;
+const fullname = personName + ' ' + personSurname;
 
 console.log(fullname);
+console.clear();
 
+console.log('split()');
 
+console.log('Labas rytas, Lietuva!'.split(' '));
+console.log('----');
+const sentence = 'Labas rytas, Lietuva!';
+const zodziai = sakinys.split(' ');
+console.log(zodziai);
+console.log(zodziai[0]);
+console.log(zodziai[1]);
+console.log(zodziai[2]);

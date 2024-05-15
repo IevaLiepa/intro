@@ -23,3 +23,5 @@ console.log(marytesPazymiai[0]);
 const petroPazymiai = students[2];
 console.log(petroPazymiai[0]);
 console.log(petroPazymiai[1]);
+console.clear();
+
