@@ -4,6 +4,8 @@
     "description": "",
     "main": "index.js",
     "scripts": {
+        "random": "node --watch ./metodai/random.js",
+        "math": "node --watch ./metodai/math.js",
         "matrica": "node --watch ./nd/matrica.js",
         "clock": "node --watch ./nd/clock.js",
         "polish": "node --watch ./js/codewars/polish.js",
