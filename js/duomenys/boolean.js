@@ -91,3 +91,16 @@ if (2) {
 } else {
     console.log(false);
 }
+console.clear();
+
+if (4 == '4') {
+    console.log('Taip');
+} else {
+    console.log('Ne');
+}
+// triguba lygibe ar nelygibe tikrina duomenu tipa! (===, !==)
+// if (4 === '4') {
+//     console.log('Taip');
+// } else {
+//     console.log('Ne');
+// }
