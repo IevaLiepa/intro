@@ -4,6 +4,11 @@
     "description": "",
     "main": "index.js",
     "scripts": {
+        "array": "node --watch ./metodai/array.js",
+        "des": "node --watch ./metodai/des.js",
+        "spread": "node --watch ./metodai/spread.js",
+        "object": "node --watch ./js/duomenys/object.js",
+        "eval": "node --watch ./nd/eval.js",
         "random": "node --watch ./metodai/random.js",
         "math": "node --watch ./metodai/math.js",
         "matrica": "node --watch ./nd/matrica.js",

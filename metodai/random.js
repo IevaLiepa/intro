@@ -1,5 +1,6 @@
 //RANDOM
 //[0...1)
+//tieosiog random skaicius
 console.log(Math.random());
 
 function moneta() {
@@ -20,3 +21,13 @@ for (let i = 0; i < 10; i++) {
     console.log(iskrito);
 }
 
+const week = ['pirm', 'antrad', 'trec', 'ketv', 'penk', 'sest', 'sekm'];
+
+//[0..step) 1
+//...
+//[6step..7step) 7
+
+for (let i = 0; i < 10; i++) {
+    const index = Math.floor(Math.random() * week.length);
+    console.log(week[index]);
+}
