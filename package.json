@@ -4,6 +4,7 @@
     "description": "",
     "main": "index.js",
     "scripts": {
+        "array2": "node --watch ./metodai/array2.js",
         "array.m": "node --watch ./metodai/array.m.js",
         "des": "node --watch ./metodai/des.js",
         "spread": "node --watch ./metodai/spread.js",
